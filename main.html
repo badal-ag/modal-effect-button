@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Modal Effect Button</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Modal.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <input type="checkbox" id="open-modal">
+        <label for="open-modal" class="open">Click Me</label>
+        <input type="checkbox" id="close-modal">
+
+        <div class="modal">
+            <div class="modal-header">
+                <h1 class="modal-title">Modal Header</h1>
+            </div>
+            <div class="modal-body">
+                <i class="fa fa-check"></i>
+                <p class="modal-content">Modal Content</p>
+            </div>
+            <hr>
+            <div class="modal-footer">
+                <label for="close-modal" class="close-modal" onClick="window.location.reload();">Close</label>
+            </div>
+        </div>
+    </body>
+</html>
